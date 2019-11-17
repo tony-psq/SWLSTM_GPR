@@ -1,4 +1,5 @@
 # SWLSTM_GPR
+增加风速分解，分解成N(如N=21)个序列
 A new probabilistic wind speed prediction method, called Shared Weight Long Short-Term Memory Network combined with Gaussian Process Regression.
 The paper of this method is available at this link (https://doi.org/10.1016/j.apenergy.2019.04.047).
 If the paper or code is helpful to you, please refer to our paper or code.
