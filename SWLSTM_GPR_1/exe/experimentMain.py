@@ -50,7 +50,7 @@ if __name__ == "__main__":
     experimentProbaMetrics = np.zeros(shape=(modelNum, datasetNum * probaMetricNum))
 
     # predictions
-    # 分解成21个
+    # 分解成21个序列
     for sampleIndex in range(21):
         series = data[sampleIndex]
         series = series.dropna()
